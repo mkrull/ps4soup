@@ -19,7 +19,7 @@ Use pip to install it (ideally into a separate virtualenv):
 
 To run the tests with detailed report use `pytest`:
 
-    $ pytest --cov ps4soup --cov-report term-missing -vv
+    $ pytest --cov ps4soup.api --cov ps4soup.client --cov-report term-missing -vv
     
 ## Usage
 
